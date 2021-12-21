@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+.wraper_cart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+    background-color: #f3f3f3;
+    
+}
+.user_cart{
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.prd_added{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    border: 0.5px solid rgb(218, 218, 218);
+    margin-bottom: 20px;
+}
+.prd_added-img{
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+.prd_added-img img{
+    width: 100%;
+    height: 100%;
+}
+.prd_added-name{
+    width: 20%;
+    height: 100%;
+
+    padding-top:  45px;
+    padding-left: 10px;
+}
+.prd_added-num{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.prd_added-price,
+.prd_added-total-price{
+ width: 20%;
+ height: 100%;
+
+ text-align: center;
+ padding-top: 20px;
+}
+.prd_added-delete{
+    width: 10%;
+    height: 100%;
+    padding-top: 45px;
+    padding-left: 14px;
+}
+.prd_added-delete input{
+   width: 60px;
+   height: 30px;
+   border: none;
+
+}
+.prd_added-delete input:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 204, 174);
+}
+.total-cart{
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+}
+
+
+.user-infor{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+  
+}
+.user-infor h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.user-infor form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.user-infor form input{
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.user-infor form span{
+    margin-left: 20px;
+}
+
+.user-infor form input:nth-child(9){
+   background-color: rgb(245, 174, 120);
+   border: none;
+   cursor: pointer;
+   
+}
+#sm:hover{
+    background-color: rgb(233, 31, 41);
+    color: white;
+}
+@keyframes ss{
+    0% {
+        opacity: 1;
+        transform: translateX(1300px);
+    }
+    25% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    75% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1300px);
+        opacity: 0;
+    }
+}
+
+.thong-bao{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(158, 255, 46);
+    position: absolute;
+    top: 180px;
+    right: 10px;
+    animation: ss linear 5s;
+    display: none; 
+}
+
+ 
+
